@@ -54,7 +54,7 @@ def Login():
     respuesta = jsonify(Dato)
     return respuesta
 
-@app.route('/Contraseña',methods = ['POST'])
+@app.route('/Contr',methods = ['POST'])
 
 def Contraseña():
     global Usuarios
